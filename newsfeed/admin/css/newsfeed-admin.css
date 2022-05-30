@@ -1,0 +1,34 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.gallery_image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 0px;
+  padding: 0;
+}
+
+.gallery_image ul li {
+  width: 25%;
+  float: left;
+}
+
+#img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 0px;
+  padding: 0;
+}
+#image ul li {
+  width: 25%;
+  float: left;
+}
