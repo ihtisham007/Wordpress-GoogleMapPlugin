@@ -1,3 +1,4 @@
+<?php
 //ajax for search  Archieve Page
 add_action('wp_ajax_filter_projects', 'filter_projects');
 add_action('wp_ajax_nopriv_filter_projects', 'filter_projects');
