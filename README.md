@@ -2,7 +2,7 @@
 
 Increase upload file size in `php.ini`
 
-![phpVersion](https://user-images.githubusercontent.com/28805723/212609938-4d426b9f-9aeb-4fc9-abbb-51654659f6c9.png)
+![phpVersion](https://user-images.githubusercontent.com/28805723/212650938-83c2e989-5eb6-44f6-be5d-23925db65812.png)
 
  search `upload_max_filesize`
 
