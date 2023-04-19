@@ -135,8 +135,8 @@ add_action('admin_print_footer_scripts', 'check_textarea_length');
                     
                     // Strip HTML tags, WordPress shortcodes and white space
                     editor_content = this.getContent().replace(/(<[a-zA-Z\/][^<>]*>|\[([^\]]+)\])|(\s+)/ig, '');
-                    $('.word-count').text(editor_content.split(' ').length);
-                    if (editor_content.split(' ').length > editor_char_limit) {
+                    $('.word-count').text(editor_content.length);
+                    if (editor_content.length > editor_char_limit) {
 
                         $("#post-status-info tbody tr").addClass('colorred');
                         //button disabled

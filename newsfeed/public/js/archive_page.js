@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', init);
     [83.162102, -52.233040]  //Northeast
 ];
                 map = L.map('mapid').setView([1, 1], 5);
-                var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+                
+                var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     'maxBounds': maxBounds,
                 maxZoom: 18,
                 
@@ -46,7 +47,7 @@ function init() {
             
            
            let map=MapShow();
-
+            console.warn('hello')
             map.removeControl(map.zoomControl);
          var zoomControl = L.control.zoom({
              position: 'bottomright'
